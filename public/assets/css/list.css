@@ -1,0 +1,16 @@
+.table {
+  border: 1px solid;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+}
+.table th {
+  padding: 5px;
+  border: 1px solid;
+}
+.table tr>td{
+  margin: 0;
+}
+.table tr>th{
+  margin: 0;
+}
