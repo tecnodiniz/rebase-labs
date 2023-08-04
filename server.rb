@@ -7,10 +7,6 @@ get '/index' do
   File.open('index.html')
 end
 
-get '/pacientes' do
-  File.open('list.html')
-end
-
 get '/resultados' do
   File.open('resultados.html')
 end

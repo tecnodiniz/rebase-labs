@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker network create rebase-app
+
 docker run -d \
 	--network rebase-app --network-alias postgres \
 	--name rebase-data \
