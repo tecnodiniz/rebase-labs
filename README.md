@@ -1,7 +1,6 @@
 # Rebase Labs
 
-Para rodar a aplicação, execute PRIMEIRO o script db_run para criar o banco de dados e a docker network 'rebase-app'.
-Em seguida, rode o script run.
+Para rodar a aplicação rode o script 'run'
 
 feito isso, basta acessar a aplicação que estará rodando em http://localhost:3000/index
 

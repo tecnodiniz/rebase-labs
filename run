@@ -1,5 +1,15 @@
 #!/bin/bash
 
+docker network create rebase-app
+
+docker run -d \
+	--network rebase-app --network-alias postgres \
+	--name rebase-data \
+	-v rebase-postgres-data:/var/lib/postgresql/data \
+	-e POSTGRES_PASSWORD=secret \
+ 	-e POSTGRES_DB=teste \
+ 	postgres
+
 docker run \
   --rm \
   --name rebase-labs \
